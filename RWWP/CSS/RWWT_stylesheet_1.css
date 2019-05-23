@@ -50,7 +50,7 @@ nav ul li {
 }
 nav ul {
     list-style-type: none;
-    background-color: cornflowerblue;
+    background-color: white;
     border: 4px solid #111111;
     border-radius: 10px;
     font-family: sans-serif;
@@ -80,4 +80,7 @@ p. subtitle::before {
     color:black;
     content:none;
     font-weight: bold;
+}
+p. link {
+    border: 3px solid black;
 }
