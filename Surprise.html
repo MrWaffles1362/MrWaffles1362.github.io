@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="CSS/RWWT_stylesheet_1.css"/>
+    </head>
+    <body>
+        <p>
+            <img id="display-image" onclick="swapImage()" src="IMGS/present.jpg" width="180" height="180"/>
+        </p>
+        <p>Click the box to open</p>
+        <script>
+            function swapImage() {
+                var imageDisplayed = document.getElementById('display-image');
+                if (imageDisplayed.src.match("IMGS/present.jpg")) {
+                    imageDisplayed.src = "IMG/dabbing_pug.jpg";
+            }
+                else {
+                    imageDisplayed.src = "IMGS/present.jpg";
+                }
+            }
+        </script>>
+    </body>
+</html>
