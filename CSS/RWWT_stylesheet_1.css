@@ -84,3 +84,7 @@ p. subtitle::before {
 p. link {
     border: 3px solid black;
 }
+h2 {
+    border-color: aqua;
+    text-decoration-color: cornflowerblue;
+}
