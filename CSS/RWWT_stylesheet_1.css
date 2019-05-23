@@ -86,5 +86,5 @@ p. link {
 }
 h2 {
     border-color: aqua;
-    text-decoration-color: cornflowerblue;
+    border: 4px solid aqua;
 }
