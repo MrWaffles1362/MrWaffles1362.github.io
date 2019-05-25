@@ -88,3 +88,6 @@ h2 {
     border-color: aqua;
     border: 4px solid aqua;
 }
+h3 {
+    border: 4px solid red;
+}
